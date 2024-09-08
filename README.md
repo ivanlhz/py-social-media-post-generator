@@ -1,4 +1,4 @@
-# Hugging Face and LL Post Generation
+# Hugging Face and LLM Post Generation
 
 This project leverages the power of Hugging Face's language models to generate high-quality content for social media posts. The application is designed to assist users in creating engaging and informative content for their threads, including titles, keywords, and the posts themselves.
 
@@ -21,10 +21,11 @@ To use this application, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Create a virtual environment using `python -m venv .venv`
-3. Create a `.env` file in the root directory of the project and add the `API_KEY` variable with your Hugging Face API key. You can use the `.env.example` file as a template.
-4. Install the required dependencies using `pip install -r requirements.txt`.
-5. Run the application using `streamlit run app.py`.
-6. Follow the prompts in the application to generate titles, keywords, and posts for your social media threads.
+3. Activate your environment to install locally the dependencies.
+4. Create a `.env` file in the root directory of the project and add the `API_KEY` variable with your Hugging Face API key. You can use the `.env.example` file as a template.
+5. Install the required dependencies using `pip install -r requirements.txt`.
+6. Run the application using `streamlit run app.py`.
+7. Follow the prompts in the application to generate titles, keywords, and posts for your social media threads.
 
 ## Contributing
 
